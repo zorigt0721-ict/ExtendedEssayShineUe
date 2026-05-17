@@ -1,0 +1,23 @@
+/* Make boxes more rounded and add padding to icons */
+.feature-card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.feature-icon {
+    border-radius: 12px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* Optional: Add more rounded corners to other elements */
+.h-100 {
+    border-radius: 15px;
+}
